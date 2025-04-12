@@ -1,11 +1,11 @@
 @font-face {
     font-family: "JetBrains Sans";
-    src: url("public/fonts/JetBrainsSans-Regular.woff2");
+    src: url("fonts/JetBrainsSans-Regular.woff2");
 }
 
 @font-face {
     font-family: "JetBrains Mono";
-    src: url("public/fonts/JetBrainsMono-Regular.woff2");
+    src: url("fonts/JetBrainsMono-Regular.woff2");
 }
 
 :root {
