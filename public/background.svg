@@ -1,0 +1,60 @@
+<svg width="1920" height="494" viewBox="0 0 1920 494" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#filter0_b)">
+        <path d="M-400 -800C-300 -700 -200 -480 100 -50C350 250 600 400 800 320C1000 240 1350 -50 1650 -300C1800 -420 1850 -580 1700 -750L1200 -1700C1100 -1820 950 -1880 830 -1810L-150 -1100C-270 -1020 -380 -900 -400 -800Z" fill="url(#paint0_linear)"/>
+    </g>
+    <g filter="url(#filter1_b)">
+        <path d="M-280 -840C-240 -760 -160 -540 140 -30C350 270 600 380 750 300C920 210 1220 -30 1520 -240C1650 -320 1680 -450 1600 -600L1150 -1500C1070 -1650 910 -1700 800 -1620L-100 -1020C-220 -940 -280 -890 -280 -840Z" fill="url(#paint1_linear)"/>
+    </g>
+    <g filter="url(#filter2_b)">
+        <path d="M-160 -860C-120 -790 -60 -620 180 -30C300 200 470 260 620 210C760 160 1050 -40 1350 -210C1440 -260 1480 -350 1430 -460L1120 -1300C1070 -1410 950 -1470 860 -1420L10 -1040C-100 -990 -160 -920 -160 -860Z" fill="url(#paint2_linear)"/>
+    </g>
+    <g filter="url(#filter3_b)">
+        <path d="M-40 -840C-20 -780 20 -660 220 -50C300 140 400 190 490 160C580 130 860 -30 1140 -160C1210 -200 1250 -260 1220 -330L1130 -1100C1100 -1170 1020 -1230 940 -1200L130 -1000C40 -970 -40 -900 -40 -840Z" fill="url(#paint3_linear)"/>
+    </g>
+    <defs>
+        <filter id="filter0_b" x="-440" y="-1850" width="2250" height="2000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feGaussianBlur in="BackgroundImageFix" stdDeviation="4"/>
+            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+        </filter>
+        <filter id="filter1_b" x="-300" y="-1680" width="1950" height="1900" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feGaussianBlur in="BackgroundImageFix" stdDeviation="4"/>
+            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+        </filter>
+        <filter id="filter2_b" x="-180" y="-1420" width="1650" height="1600" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feGaussianBlur in="BackgroundImageFix" stdDeviation="4"/>
+            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+        </filter>
+        <filter id="filter3_b" x="-60" y="-1210" width="1350" height="1300" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feGaussianBlur in="BackgroundImageFix" stdDeviation="4"/>
+            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+        </filter>
+        <linearGradient id="paint0_linear" x1="700" y1="-900" x2="1650" y2="-300" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0F1F2F" stop-opacity="0"/>
+            <stop offset="0.33" stop-color="#338DFF" stop-opacity="0.25"/>
+            <stop offset="0.9" stop-color="#66CCFF" stop-opacity="0.6"/>
+        </linearGradient>
+        <linearGradient id="paint1_linear" x1="650" y1="-800" x2="1550" y2="-250" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0F1F2F" stop-opacity="0"/>
+            <stop offset="0.33" stop-color="#338DFF" stop-opacity="0.25"/>
+            <stop offset="0.9" stop-color="#66CCFF" stop-opacity="0.6"/>
+        </linearGradient>
+        <linearGradient id="paint2_linear" x1="620" y1="-700" x2="1400" y2="-200" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0F1F2F" stop-opacity="0"/>
+            <stop offset="0.33" stop-color="#338DFF" stop-opacity="0.25"/>
+            <stop offset="0.9" stop-color="#66CCFF" stop-opacity="0.6"/>
+        </linearGradient>
+        <linearGradient id="paint3_linear" x1="600" y1="-600" x2="1250" y2="-150" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0F1F2F" stop-opacity="0"/>
+            <stop offset="0.33" stop-color="#338DFF" stop-opacity="0.25"/>
+            <stop offset="0.9" stop-color="#66CCFF" stop-opacity="0.6"/>
+        </linearGradient>
+    </defs>
+</svg>

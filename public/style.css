@@ -1,0 +1,225 @@
+@font-face {
+    font-family: "JetBrains Sans";
+    src: url("fonts/JetBrainsSans-Regular.woff2");
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("fonts/JetBrainsMono-Regular.woff2");
+}
+
+:root {
+    font-family: "JetBrains Sans", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #000000;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    align-items: center;
+
+    background-image: url("background.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 39px;
+    font-weight: 300;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 220px;
+    background: rgba(25, 25, 28, 0.5);
+    font-family: "JetBrains Mono", Inter, system-ui, sans-serif;
+}
+
+h2 {
+    font-size: 29px;
+    line-height: 39px;
+    font-weight: 300;
+}
+
+h3 {
+    border-left: 5px solid #ccc;
+    padding-left: 16px;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+h4 {
+    font-size: 29px;
+    line-height: 3px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+#app {
+    max-width: 800px;
+}
+
+.logo {
+    margin-top: 45px;
+    margin-left: 20%;
+    align-self: flex-start;
+    width: 90px;
+    height: 90px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1a2227;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    width: fit-content;
+    border: 2px solid rgba(255, 255, 255, 0.38);
+}
+
+.social-media {
+    margin: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    width: fit-content;
+}
+
+.icon {
+    width: 40px; /* Logo boyutu */
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.icon:hover {
+    transform: scale(1.1); /* Hover animasyonu */
+}
+
+.photo {
+    margin-left: 20px;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgba(255, 255, 255, 0.38);
+}
+
+.timeline {
+    position: relative;
+    margin: 20px;
+    padding-left: 40px; /* Çizgiyi sola kaydırmak için */
+    border-left: 20px solid #05395e; /* Dikey çizgi */
+    border-radius: 5px;
+}
+
+.event {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.dot {
+    position: absolute;
+    left: -9px; /* Noktanın dik çizgiye hizalanması */
+    top: 9px; /* Yukarıdan hizalanması */
+    width: 16px;
+    height: 16px;
+    background-color: #1276bd;
+    border-radius: 50%; /* Noktayı yuvarlak yapmak için */
+}
+
+.content {
+    margin-left: 20px; /* Noktadan biraz boşluk bırakır */
+}
+
+.content p {
+    margin: 0;
+    text-align: left;
+}
+
+.collapsible-container {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 5px;
+}
+
+button {
+    font-family: "JetBrains Mono", Inter, system-ui, sans-serif;
+    background-color: rgba(25, 25, 28, 0.5);
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 120px;
+    font-size: 68px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+button:hover {
+    background-image: radial-gradient(
+            farthest-corner at 77% 83%,
+            rgba(1, 197, 245, 0.5) 2%,
+            rgba(1, 126, 254, 0.5) 28%,
+            rgba(25, 25, 28, 0) 70%
+    );
+    border: 1px solid rgba(76, 166, 255, 0.2);
+    background-clip: padding-box;
+}
+
+@media (max-width: 875px) {
+
+    .logo {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .title {
+        margin-bottom: 30px;
+    }
+
+    .icons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
